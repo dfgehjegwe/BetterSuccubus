@@ -78,11 +78,11 @@ namespace BetterSuccubus
     public static partial class Texts
     {
         public readonly static List<LangGame.Row> ConCharmKilled = [
-            new LangGame.Row() { text_JP = "#2の心を包んでいた甘い霧が消えた。", text = "The sweet mist that was hovering over #2's mind faded.", text_L = "笼罩在#2心头的甜雾消去了。"},
-            new LangGame.Row() { text_JP = "「ぼ...僕は一体...」", text = "「I...I am...」", text_L = "「我...我这是在...」"},
-            new LangGame.Row() { text_JP = "#2首を振り回した。「一体...」", text = "#2 shakes his head. 「What... What am I doing...?」", text_L = "#2晃了晃脑袋。「我...我在做什么...」"},
-            new LangGame.Row() { text_JP = "#2は冷や汗をかいて息を荒げている。", text = "#2 is in a cold sweat, breathing heavily.「Ha... Ha...」", text_L = "#2一身冷汗, 大口的喘着粗气「哈...哈...」"},
-            new LangGame.Row() { text_JP = "#2が首を振り、驚いて#1を見た。", text = "#2 shakes his head, looking at #1 in surprise.", text_L = "#2摇了摇头, 一脸惊讶的看着#1。"},
+            new LangGame.Row() { text_JP = "#2の心を包む甘い霧が消えた。", text = "The sweet mist that was hovering over #2's mind faded.", text_L = "笼罩在#2心头的甜雾消去了。"},
+            new LangGame.Row() { text_JP = "「あれ…」", text = "「I...I am...」", text_L = "「我...我这是在...」"},
+            new LangGame.Row() { text_JP = "「なんで…」", text = "#2 shakes his head. 「What... What am I doing...?」", text_L = "#2晃了晃脑袋。「我...我在做什么...」"},
+            new LangGame.Row() { text_JP = "#2は息を荒げている。", text = "#2 is in a cold sweat, breathing heavily.「Ha... Ha...」", text_L = "#2一身冷汗, 大口的喘着粗气「哈...哈...」"},
+            new LangGame.Row() { text_JP = "#2は冷や汗を拭った。", text = "#2 shakes his head, looking at #1 in surprise.", text_L = "#2摇了摇头, 一脸惊讶的看着#1。"},
         ];
         public readonly static LangGame.Row ConCharmPhaseStr = new() { text = "Enchanted", text_L = "被魅惑", text_JP = "魅了" };
 
