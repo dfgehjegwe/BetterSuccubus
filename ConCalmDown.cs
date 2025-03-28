@@ -29,6 +29,6 @@ namespace BetterSuccubus
     public static partial class Texts
     {
         public readonly static LangGame.Row ConCalmDownPhaseStr = new() { text = "Calm Down", text_L = "贤者时间", text_JP = "賢者タイム" };
-        public readonly static List<LangGame.Row> ConCalmDownToFail = [new() {text_JP = "#2番は警戒している。", text = "#2 studies you warily.", text_L = "#2警惕地看着你。" }];
+        public readonly static List<LangGame.Row> ConCalmDownToFail = [new() {text_JP =  "#2はあなたを睨みつけた。", text = "#2 studies you warily.", text_L = "#2警惕地看着你。" }];
     }
 }
