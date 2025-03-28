@@ -64,19 +64,19 @@ namespace BetterSuccubus
         public readonly static List<LangGame.Row> ActCharmSuccess = [
             new LangGame.Row() { text_JP = "#2は呆けている。", text = "#2 is mesmerized.", text_L = "#2被迷倒了。" },
             new LangGame.Row() { text_JP = "#2は恍惚とした表情であなたを見ている。", text = "#2 looks at you in a trance.", text_L = "#2神情恍惚的看着你。" },
-            new LangGame.Row() { text_JP = "「あ...美しい...」", text = "「Ah…Such a beauty…」", text_L = "「啊…真美…」" },
+            new LangGame.Row() { text_JP = "「あ…綺麗」", text = "「Ah…Such a beauty…」", text_L = "「啊…真美…」" },
             new LangGame.Row() { text_JP = "抑えきれない愛欲が溢れてくる。", text = "A wave of love that could not be suppressed rushed up to #2's heart.", text_L = "一股无法压抑的爱意冲上了#2的心头。" },
-            new LangGame.Row() { text_JP = "「僕、僕はあなたが...」", text = "「I'm . .I'm so...」", text_L = "「我…我对你…」" }
+            new LangGame.Row() { text_JP = "「あなたのこと…」", text = "「I'm . .I'm so...」", text_L = "「我…我对你…」" }
         ];
         public readonly static List<LangGame.Row> ActCharmFailure = [
-            new LangGame.Row() { text_JP = "#2は#1を突き放した。", text = "#2 pushed #1 away", text_L = "#2一把推开了#1。"},
-            new LangGame.Row() { text_JP = "「なにを！」", text = "「What's wrong with you?」", text_L = "「你做什么！」"},
-            new LangGame.Row() { text_JP = "#2は激怒した。「君のこと、見損なった!」", text = "#2 looks at #1 angrily.「I was wrong about you!」", text_L = "#2愤怒的看着#1。「我看错你了!」"},
-            new LangGame.Row() { text_JP = "#1は差し伸ばした手を#2に振り払われた。", text = "#2 fends off #1's outstretched hand.", text_L = "#2挡开了#1伸过来的手。"},
+            new LangGame.Row() { text_JP = "#2は#1を拒絶した。", text = "#2 pushed #1 away", text_L = "#2一把推开了#1。"},
+            new LangGame.Row() { text_JP = "「なにするの！」", text = "「What's wrong with you?」", text_L = "「你做什么！」"},
+            new LangGame.Row() { text_JP = "#2は激怒した。", text = "#2 looks at #1 angrily.「I was wrong about you!」", text_L = "#2愤怒的看着#1。「我看错你了!」"},
+            new LangGame.Row() { text_JP = "#1は伸ばした手を振り払われた。", text = "#2 fends off #1's outstretched hand.", text_L = "#2挡开了#1伸过来的手。"},
             new LangGame.Row() { text_JP = "「近寄らないで！」", text = "「Don't come near me!」", text_L = "「不要靠近我！」"},
         ];
         public readonly static List<LangGame.Row> Self = [
-            new LangGame.Row() { text_JP = "#1は可愛らしく髪を撫でつけた。", text = "You stroke your hair coquettishly into the air.", text_L = "你对着空气搔首弄姿。"},
+            new LangGame.Row() { text_JP = "あなたは可愛らしく髪を撫でつけた。", text = "You stroke your hair coquettishly into the air.", text_L = "你对着空气搔首弄姿。"},
             new LangGame.Row() { text_JP = "あなたは自分の美しさにメロメロだ。", text = "You're about to charm yourself.", text_L = "你快要把自己迷住了。"}
         ];
 
