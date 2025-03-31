@@ -91,7 +91,7 @@ namespace BetterSuccubus
         }
         public static string RandGet(this List<LangGame.Row> rows)
         {
-            return rows[EClass.rnd(rows.Count - 1)].Lang();
+            return rows[EClass.rnd(rows.Count)].Lang();
         }
         public static void Say(string word, UnityEngine_CoreModule.UnityEngine.Color color, string ref1 = null, string ref2 = null)
         {
